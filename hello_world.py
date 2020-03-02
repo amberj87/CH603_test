@@ -5,7 +5,7 @@ def addition(a,b):
     return c
 
 def multiply(a,b):
-    c=a*b
+    c=a*b+3.0
     return c
 
 def test(a,b):
