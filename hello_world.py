@@ -6,6 +6,10 @@ def multiply(a,b):
     c=a*b
     return c
 
+def test(a,b):
+    c=a+b*b
+    return c
+
 print("hello world")
 a=1.0
 b=2.0
