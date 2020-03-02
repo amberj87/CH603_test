@@ -9,7 +9,7 @@ def multiply(a,b):
     return c
 
 def test(a,b):
-    c=a+b*b
+    c=2*a+b*b
     return c
 
 print("hello world")
@@ -18,5 +18,7 @@ b=2.0
 c=addition(a,b)
 print(c)
 c=multiply(a,b)
+print(c)
+print("testing test",test(2,3))
 print(c)
 print(double(5.0))
