@@ -9,7 +9,7 @@ def multiply(a,b):
     return c
 
 def test(a,b):
-    c=2*a+b*b+5
+    c=2*a+b*b+7
     return c
 
 print("hello world")
