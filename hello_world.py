@@ -1,3 +1,5 @@
+from dosomething import double
+
 def addition(a,b):
     c=a+b
     return c
@@ -17,3 +19,4 @@ c=addition(a,b)
 print(c)
 c=multiply(a,b)
 print(c)
+print(double(5.0))
